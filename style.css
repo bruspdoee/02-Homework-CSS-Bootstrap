@@ -1,12 +1,24 @@
 * {
     box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+  }
+
+  html, body {
+    height: 100%;
   }
   
   .contactContainer{
+    min-height: 100%;
     background-color: lightgrey;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 30px;
+  }
+
+  .indexContainer{
+    min-height: 100%;
+  }
+
+  .projectContainer{
+    min-height: 100%;
   }
 
   .row{
@@ -23,14 +35,31 @@
     margin-bottom: 25px;
   }
   
-  .far{
-    size: 50px;
+  .spacerRow{
+    margin-top: 30px;
   }
 
+  footer {
+    padding: 10px;
+
+    position: relative;
+    height: 100px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px
+  }
+
+  img{
+    height: 180px;
+  }
 
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 576px) {
-    .column, input[type=submit] {
+    body {
       width: 100%;
       margin-top: 0;
     }
