@@ -9,6 +9,11 @@
     width: 100%;
   }
   
+  .row{
+    max-width: auto;
+    margin: 0 auto;
+  }
+  
   .contactContainer{
     margin: 0 auto;
     margin-top: 20px;
