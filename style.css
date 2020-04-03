@@ -1,29 +1,62 @@
 * {
     box-sizing: border-box;
-    margin: 0; 
+    margin: 0 auto; 
     padding: 0;
   }
 
   html, body {
     height: 100%;
+    width: 100%;
   }
   
   .contactContainer{
+    margin: 0 auto;
+    margin-top: 20px;
     min-height: 100%;
-    margin-top: 30px;
+  }
+
+  .jumbotron{
+    background-color: gainsboro;
+  }
+
+  #carpe{
+    text-align: center;
+  }
+
+  .col-md-4{
+    text-align: center;
+  }
+
+  .fa{
+    font-size: 30px;
   }
 
   .indexContainer{
     min-height: 100%;
+    margin: 0 auto;
+  }
+
+  .rowI{
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .card{
+    margin: 0 auto;
+    background-color: gainsboro;
+  }
+
+  .list-group-item{
+    background-color: gainsboro;
   }
 
   .projectContainer{
-    min-height: 100%;
+    margin: 0 auto;
   }
-
+ 
   .row{
     margin-left: 10px;
-  }
+  } 
 
   .fa{
     margin-right: 15px;
@@ -34,9 +67,6 @@
     font-size: 25px;
     margin-bottom: 25px;
   }
-
-  h5{
-  }
   
   .spacerRow{
     margin-top: 30px;
@@ -45,7 +75,8 @@
   footer {
     padding: 10px;
     position: relative;
-    height: 100px;
+    max-height: 100%;
+    max-width: 100%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -69,18 +100,9 @@
 }
 
 h2 {
-    font-size: 20px
-  }
+  font-size: 20px
+}
 
-  .card-img-top{
+.card-img-top{
     height: 350px;
   }
-
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 576px) {
-    body {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-  
